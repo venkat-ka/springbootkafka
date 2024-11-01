@@ -7,3 +7,8 @@ https://www.udemy.com/course/apache-kafka-for-spring-boot-microservices/learn/le
 
 3) Linux based installation
 
+Commands
+Create Topic
+1) bin/windows/kafka-console-producer.bat --topic transactions --bootstrap-server localhost:9092
+
+2) kafka-topics.sh --list --bootstrap-server localhost:9092
