@@ -15,4 +15,5 @@ Create Topic
 
 3) kafka-console-consumer.sh --topic product-created-events-topic --from-beginning --bootstrap-server localhost:9092 --property print.key=true --property print.value=true
 
-4) kafka-console-producer.sh --bootstrap-server localhost:9092 --topic product-created-events-topics --property parse.key=true --property key.seperator=:
+4) kafka-console-producer.sh --bootstrap-server localhost:9092 --topic product-created-events-topic --property parse.key=true --property key.seperator=:
+org.apache.kafka.common.KafkaException: No key separator found on line number 1: '1:{lkl}'
