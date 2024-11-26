@@ -44,3 +44,8 @@ spring.kafka.producer.properties.request.timeout.ms=3000
 spring.kafka.producer.properties.enalbe.idempotence=true
 spring.kafka.producer.properties.max.in.flight.request.per.connection=5
 
+
+**optional steps**
+ netsh advfirewall firewall add rule name="Allow from 192.168.1.103" dir=in action=allow protocol=ANY remoteip=192.168.1.103
+
+
